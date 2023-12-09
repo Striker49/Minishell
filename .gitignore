@@ -1,0 +1,17 @@
+.DS_Store
+libs/readline/
+libs/readline/
+libs/libft/libft.a
+libft/libft/bin/
+minishell_new/libs/readline/
+bin/
+minishell
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+minishell.dSYM/
+minishell_tester
+a
+tests/
+tools/
+supp.txt
