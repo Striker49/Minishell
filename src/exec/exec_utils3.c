@@ -59,9 +59,7 @@ void	ft_exec_loop(t_minishell *shell)
 	{
 		ft_execute(shell, cmd_cursor, b_flag);
 		if (g_heredoc.stop == 1)
-		{
-			break;
-		}
+			break ;
 		cmd_cursor = cmd_cursor->next;
 	}
 	if (shell->exec->child_pid)
